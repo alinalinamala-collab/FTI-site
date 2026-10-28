@@ -1,0 +1,68 @@
+:root {
+  --primary-color: #7818e6; /* Основний колір ФТІ */
+  --accent-color: #ff9900;  /* Акцентний колір */
+  --bg-color: #f4f6f9;
+  --text-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Навігація (Header) */
+header {
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover, nav a.active {
+  color: var(--accent-color);
+}
+
+/* Основний контент */
+main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Футер */
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
