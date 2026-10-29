@@ -1,0 +1,17 @@
+.intro-text {
+    border-left: 4px solid #0056b3;
+    padding: 20px 25px;
+    margin-bottom: 30px;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.intro-text ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.intro-text li {
+    margin-bottom: 8px;
+    color: #444;
+}
