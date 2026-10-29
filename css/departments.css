@@ -79,3 +79,64 @@
     font-size: 1.15rem;
     color: #4c1d95;
 }
+
+.initiative-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Важливо: ховає гострі кути фіолетового блоку всередині закругленої картки */
+  overflow: hidden;
+}
+
+/* Ліва частина з назвою */
+.card-left {
+  padding: 16px 24px;
+}
+
+.card-left h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #1e1b4b;
+}
+
+/* Права фіолетова частина з даними */
+.card-right {
+  background-color: #4338ca; /* Фіолетовий колір блоку */
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  /* Гарантує, що блок розтягується на всю висоту картки */
+  align-self: stretch;
+}
+
+/* Стилі для самих бейджів усередині фіолетового блоку */
+.card-right .badge {
+  background-color: #e0e7ff; /* Світло-фіолетовий/блакитний фон бейджа */
+  color: #3730a3;           /* Темний текст бейджа */
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;      /* Текст не переноситься на новий рядок */
+}
+
+.badges {
+  display: flex;
+  gap: 8px;
+}
+
+.badge {
+  background-color: #e0e7ff;
+  color: #4338ca;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
