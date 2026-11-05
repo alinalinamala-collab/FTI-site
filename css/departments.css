@@ -1,0 +1,142 @@
+/* Інформація про команду департаменту */
+.team-info {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-left: 15px solid #5b21b6; /* фірмовий акцент */
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.team-info p {
+    margin-bottom: 5px;
+}
+
+/* Сітка для івентів і проєктів */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.event-card {
+    border: 1px solid #e2e8f0;
+    padding: 15px;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.event-card h4 {
+    color: #1e1b4b;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.event-card p {
+    font-size: 0.95rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* Оформлення метрик (Бейджі) */
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.badge {
+    background-color: #e0e7ff;
+    color: #4338ca;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.departments-intro {
+    background-color: rgba(255, 255, 255, 0.5); /* Напівпрозорий білий фон */
+    padding: 25px 30px;
+    border-radius: 12px;
+    margin-bottom: 35px;
+    border-left: 15px solid #5b21b6; /* Темно-фіолетовий акцент зліва */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.departments-intro p {
+    font-size: 1.05rem;
+    color: #1e1b4b;
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.departments-intro p:last-child {
+    margin-bottom: 0;
+}
+
+.departments-intro .lead-text {
+    font-size: 1.15rem;
+    color: #4c1d95;
+}
+
+.initiative-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Важливо: ховає гострі кути фіолетового блоку всередині закругленої картки */
+  overflow: hidden;
+}
+
+/* Ліва частина з назвою */
+.card-left {
+  padding: 16px 24px;
+}
+
+.card-left h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #1e1b4b;
+}
+
+/* Права фіолетова частина з даними */
+.card-right {
+  background-color: #4338ca; /* Фіолетовий колір блоку */
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  /* Гарантує, що блок розтягується на всю висоту картки */
+  align-self: stretch;
+}
+
+/* Стилі для самих бейджів усередині фіолетового блоку */
+.card-right .badge {
+  background-color: #e0e7ff; /* Світло-фіолетовий/блакитний фон бейджа */
+  color: #3730a3;           /* Темний текст бейджа */
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;      /* Текст не переноситься на новий рядок */
+}
+
+.badges {
+  display: flex;
+  gap: 8px;
+}
+
+.badge {
+  background-color: #e0e7ff;
+  color: #4338ca;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}

@@ -2,8 +2,7 @@
   --primary-color: #7818e6; /* Основний колір ФТІ */
   --accent-color: #ff9900;  /* Акцентний колір */
   --bg-color: #d3a3fa;
-  --text-color: #ffffff;
-}
+  --text-color: #1e1b4b;
 
 body {
   margin: 0;
